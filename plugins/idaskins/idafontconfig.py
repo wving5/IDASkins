@@ -26,12 +26,13 @@ class IdaFontConfig(object):
             self._key,
             'Consolas'
             if os.name == 'nt' else 
-            QFontDatabase.systemFont(QFontDatabase.FixedFont).family().encode()    
+            'Courier' # default = 'Courier'
+            # QFontDatabase.systemFont(QFontDatabase.FixedFont).family().encode()    # wont work in 7.0
         )
 
     @property
     def size(self):
-        return idaapi.reg_read_int('Size', 10, self._key)
+        return idaapi.reg_read_int('Size', 11, self._key) # default = 11
 
     @property
     def bold(self):

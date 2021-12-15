@@ -1,3 +1,4 @@
+/* Common properties */
 CustomIDAMemo {
     font-family: "<TEXT_INPUT_FONT_FAMILY>";
     font-size: <TEXT_INPUT_FONT_SIZE>;
@@ -18,3 +19,12 @@ hexview_t {
     font-style: <HEXVIEW_FONT_STYLE>;
     font-weight: <HEXVIEW_FONT_WEIGHT>;
 }
+
+EditContainer {
+  border: 1px solid #1B1F20;
+  font-family: "<TEXT_INPUT_FONT_FAMILY>";
+  font-size: <TEXT_INPUT_FONT_SIZE>;
+  font-style: <TEXT_INPUT_FONT_STYLE>;
+  font-weight: <TEXT_INPUT_FONT_WEIGHT>;
+}
+

@@ -110,6 +110,9 @@ class IdaSkinsPlugin(QObject, idaapi.plugin_t):
         qss = replace_keyword(qss, 'TEXT_INPUT', 'text_input')
         qss = replace_keyword(qss, 'OUTPUT_WINDOW', 'output_wnd')
 
+        # debug
+        # print('[IDASkins] preprocess stylesheet => ', qss)
+
         return qss
 
     def apply_stylesheet(self, abs_theme_dir, manifest):
