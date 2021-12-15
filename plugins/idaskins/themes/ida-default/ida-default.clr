@@ -40,7 +40,7 @@ ff0000	 //Regular code name
 800000	 //Regular unknown name
 ff0000	 //Collapsed line
 000000	 //Max color number
-ffffff	 //Line prefix: library function
+EBEFE8	 //Line prefix: library function ???!!! THIS IS main background-color in 7.0
 afbbc0	 //Line prefix: regular function
 ffff00	 //Line prefix: instruction
 000000	 //Line prefix: data
